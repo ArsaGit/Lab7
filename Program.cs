@@ -9,6 +9,7 @@ namespace Lab7
         static void Main(string[] args)
         {
             Console.WriteLine($"Current directory is '{Environment.CurrentDirectory}'");
+            File.WriteAllText("test.txt", "Hello");
 
 
 
